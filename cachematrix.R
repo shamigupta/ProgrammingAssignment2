@@ -1,7 +1,7 @@
 ## makeCacheMatrix constructs the Matrix to cache the result of inversion. The cache value is set to NULL
 ## when the input matrix is changed - otherwise the matrix and results are stored to cache and retrieved accordingly
 
-## Function stores and retrieved cache data for Metrics Inversion
+## Function stores and retrieved cache data for Matrix Inversion
 
 makeCacheMatrix <- function(x = matrix()) {
         i <- NULL
